@@ -1,0 +1,30 @@
+{
+  "name": "vscode-git-autocommit",
+  "displayName": "Git Auto Commit",
+  "description": "Commits working state on window close; command + keybinding to commit and optionally push.",
+  "version": "1.0.0",
+  "publisher": "nic2045",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitAutoCommit.saveState",
+        "title": "Git: Save State (Commit & ask to Push)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "gitAutoCommit.saveState",
+        "key": "ctrl+shift+alt+s",
+        "mac": "cmd+shift+alt+s"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nic2045/vscode-git-autocommit"
+  }
+}
