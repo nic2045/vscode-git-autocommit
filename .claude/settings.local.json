@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(vsce package *)",
+      "Bash(code --install-extension /Users/NicO/Coding/vscode-git-autocommit/vscode-git-autocommit-1.0.0.vsix)"
+    ]
+  }
+}
