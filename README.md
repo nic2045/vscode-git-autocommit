@@ -4,7 +4,7 @@ Commits the working state automatically on VS Code window close, and provides a 
 
 ## Features
 
-- **Auto-commit on close** — when VS Code shuts down, any uncommitted changes are staged and committed as `WIP: YYMMDD.HHMM`. No prompt, no UI, runs silently.
+- **Auto-commit on close** — when VS Code shuts down, any uncommitted changes are staged and committed with a message describing the changed files, e.g. `Update extension.js, README.md YYMMDD.HHMM`. No prompt, no UI, runs silently.
 - **Save State command** — commits and asks whether to push. Available via Command Palette or keybinding.
 
 ## Keybinding
