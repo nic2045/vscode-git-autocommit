@@ -1,0 +1,1 @@
+/Users/NicO/Coding/dotfiles/claude/projects/vscode-git-autocommit.md
