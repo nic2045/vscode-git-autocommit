@@ -11,7 +11,7 @@ Commits the working state automatically on VS Code window close, and provides a 
 
 | Action | Windows/Linux | macOS |
 |---|---|---|
-| Save State (commit + ask to push) | `Ctrl+Shift+Alt+S` | `Cmd+Shift+Alt+S` |
+| Save State (commit + ask to push) | `Ctrl+Shift+Alt+S` | `Cmd+Shift+⌥ Option+S` |
 
 ## Notes
 
