@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Check Dotfiles Setup",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-c",
+        "PARENT=$(cd \"${workspaceFolder}/..\" && pwd); if [ ! -d \"$PARENT/dotfiles\" ]; then echo ''; echo '⚠️  MISSING: dotfiles not found'; echo \"    Expected at: $PARENT/dotfiles\"; echo ''; echo '📋 To fix, run in terminal:'; echo ''; echo \"  cd $PARENT\"; echo '  git clone https://github.com/nic2045/dotfiles.git'; echo '  cd dotfiles'; echo '  bash setup.sh'; echo ''; exit 1; else echo '✓ Dotfiles found'; fi"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
