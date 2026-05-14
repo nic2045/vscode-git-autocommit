@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npm install *)",
       "Bash(vsce package *)",
-      "Bash(code --install-extension /Users/NicO/Coding/vscode-git-autocommit/vscode-git-autocommit-1.0.0.vsix)"
+      "Bash(code --install-extension /Users/NicO/Coding/vscode-git-autocommit/vscode-git-autocommit-1.0.0.vsix)",
+      "Bash(ln -sf /Users/NicO/Coding/dotfiles/claude/projects/vscode-git-autocommit.md /Users/NicO/Coding/vscode-git-autocommit/CLAUDE.md)"
     ]
   }
 }
